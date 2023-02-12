@@ -4,10 +4,6 @@ import numpy as np
 import random
 import math
 from matplotlib.pyplot import subplot, figure
-print ("1-Infinitely long fin")
-print ("2-Insulated fin tip")
-print ("3-Convective heat loss from tip")
-print ("4-Prescribed temperature at tip")
 x=np.linspace(0,0.03,1000)
 x3=np.linspace(0,1,1000)
 x1=np.linspace(0,0.03,1000)
